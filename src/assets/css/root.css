@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@700&display=swap');
+
+:root {
+    --font-family-opensans: 'Open Sans', sans-serif;
+    --font-family-poppins: 'poppins', sans-serif;
+    --font-family-Montserrat: 'Montserrat', sans-serif;
+    --font-family-Volkhov: 'Volkhov', sans-serif;
+
+    --font-weight-xxl: 700;
+    --font-weight-xl: 600;
+    --font-weight-lg: 500;
+    --font-weight-md: 400;
+
+    --fs-xxxxl: 80px;
+    --fs-xxxl: 50px;
+    --fs-xxl: 44px;
+    --fs-xll: 33px;
+    --fs-ll: 27px;
+    --fs-xxl: 26px;
+    --fs-xl: 25px;
+    --fs-xlg: 22px;
+    --fs-mlg: 20px;
+    --fs-lg: 18px;
+    --fs-md: 17px;
+    --fs-sm: 16px;
+    --fs-s: 14px;
+    --fs-vs: 13px;
+}
+
+.ff-opensans {
+    font-family: var(--font-family-opensans);
+}
+
+.ff-poppins {
+    font-family: var(--font-family-poppins);
+}
+
+.ff-montserrat {
+    font-family: var(--font-family-Montserrat);
+}
+
+.ff-volkhov {
+    font-family: var(--font-family-Volkhov);
+}
+
+.fw-400 {
+    font-weight: var(--font-weight-md);
+}
+
+.fw-500 {
+    font-weight: var(--font-weight-lg);
+}
+
+.fw-600 {
+    font-weight: var(--font-weight-xl);
+}
+
+.fw-700 {
+    font-weight: var(--font-weight-xxl);
+}
+
+.fs-13 {
+    font-size: var(--fs-vs);
+}
+
+.fs-14 {
+    font-size: var(--fs-s);
+}
+
+.fs-16 {
+    font-size: var(--fs-sm);
+}
+
+.fs-17 {
+    font-size: var(--fs-md);
+}
+
+.fs-18 {
+    font-size: var(--fs-lg);
+}
+
+.fs-20 {
+    font-size: var(--fs-mlg);
+}
+
+.fs-22 {
+    font-size: var(--fs-xlg);
+}
+
+.fs-25 {
+    font-size: var(--fs-xl);
+}
+
+.fs-26 {
+    font-size: var(--fs-xxl);
+}
+
+.fs-27 {
+    font-size: var(--fs-ll);
+}
+
+.fs-33 {
+    font-size: var(--fs-xll);
+}
+
+.fs-44 {
+    font-size: var(--fs-xxl);
+}
+
+.fs-50 {
+    font-size: var(--fs-xxxl);
+}
+
+.fs-84 {
+    font-size: var(--fs-xxxxl);
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-xxxxl: 78px;
+        --fs-xxxl: 48px;
+        --fs-xxl: 44px;
+        --fs-xll: 33px;
+        --fs-ll: 27px;
+        --fs-xxl: 26px;
+        --fs-xl: 25px;
+        --fs-xlg: 22px;
+        --fs-mlg: 20px;
+        --fs-lg: 18px;
+        --fs-md: 17px;
+        --fs-sm: 16px;
+        --fs-s: 14px;
+        --fs-vs: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-xxxxl: 74px;
+        --fs-xxxl: 46px;
+        --fs-xxl: 42px;
+        --fs-xll: 32px;
+        --fs-ll: 27px;
+        --fs-xxl: 26px;
+        --fs-xl: 25px;
+        --fs-xlg: 22px;
+        --fs-mlg: 20px;
+        --fs-lg: 18px;
+        --fs-md: 17px;
+        --fs-sm: 16px;
+        --fs-s: 14px;
+        --fs-vs: 13px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-xxxxl: 55px;
+        --fs-xxxl: 44px;
+        --fs-xxl: 40px;
+        --fs-xll: 30px;
+        --fs-ll: 27px;
+        --fs-xxl: 26px;
+        --fs-xl: 25px;
+        --fs-xlg: 22px;
+        --fs-mlg: 20px;
+        --fs-lg: 18px;
+        --fs-md: 17px;
+        --fs-sm: 16px;
+        --fs-s: 14px;
+        --fs-vs: 13px;
+    }
+}
