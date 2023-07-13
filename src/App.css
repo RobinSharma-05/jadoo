@@ -377,3 +377,7 @@ footer svg g path:hover {
     margin-left: -3rem;
   }
 }
+
+.outline_none {
+  outline: none;
+}

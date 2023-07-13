@@ -26,7 +26,7 @@ const Nav = () => {
                                 <li><a href="" className='text-black me-lg-4 me-0 google_regular'>Bookings</a></li>
                                 <li><a href="" className='text-black google_regular'>Login</a></li>
                                 <li><a href="" className='text-black btn-1 d-inline-block google_regular'>Sign up</a></li>
-                                <select name="language" id="language" className='border-0 bg-transparent google_regular'>
+                                <select name="language" id="language" className='border-0 outline_none bg-transparent google_regular'>
                                     <option value="En">En</option>
                                     <option value="HI">HI</option>
                                     <option value="SP">SP</option>

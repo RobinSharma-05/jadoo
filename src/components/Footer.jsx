@@ -1,11 +1,13 @@
 import React from 'react'
 import footer_last_2nd_image from '../assets/svg/footer_last_2nd_image.svg'
 import footer_last_1st_image from '../assets/svg/footer_last_1st_image.svg'
+import { Row } from 'react-bootstrap'
 
 const Footer = () => {
     return (
+
         <footer className='pt-5'>
-            <div className="row mt-5">
+            <Row className="mt-5">
                 <div className="col-xl-3 col-12" data-aos="fade-right"
                     data-aos-easing="linear"
                     data-aos-duration="2000">
@@ -139,7 +141,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Row>
             <p className='d-flex align-itms-center justify-content-center mt-5 pt-4 mb-5' data-aos="zoom-in" data-aos-delay="200" data-aso-duration="2500"><a href="" className='google_regular fw-500 fs-14 grey-color'>All rights reserved@jadoo.co</a></p>
         </footer>
     )

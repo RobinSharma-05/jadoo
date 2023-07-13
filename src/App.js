@@ -15,6 +15,7 @@ import Footer from './components/Footer.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Container } from 'react-bootstrap';
 
 function App() {
   useEffect(() => {
@@ -26,7 +27,8 @@ function App() {
 
         <img className='position-absolute overflow-image w-46' src={overflow_1} alt="" />
 
-        <div className='my-container position-relative'>
+        <Container className='position-relative'>
+
           <Nav />
           <Header />
           <Section1 />
@@ -36,8 +38,11 @@ function App() {
           <Section5 />
           <Section6 />
           <Footer />
-        </div>
+
+        </Container>
+
       </div>
+
     </div>
   );
 }

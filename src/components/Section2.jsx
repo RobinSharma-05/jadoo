@@ -2,6 +2,7 @@ import React from 'react'
 import section3_1st from '../assets/png/section3_1st.png'
 import section3_2nd from '../assets/png/section3_2nd.png'
 import section3_3rd from '../assets/png/section3_3rd.png'
+import { Col, Row } from 'react-bootstrap'
 
 const Section2 = () => {
     return (
@@ -12,8 +13,8 @@ const Section2 = () => {
                 <p className='ff-poppins fw-600 fs-18 grey-color'>Top Selling</p>
                 <p className='ff-volkhov fw-700 fs-50 mb-5'>Top Destinations</p>
             </div>
-            <div className="row justify-content-center">
-                <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-right"
+            <Row className="justify-content-center">
+                <Col lg={4} sm={6} data-aos="fade-right"
                     data-aos-easing="linear"
                     data-aos-duration="700">
                     <img className='w-100 h-75' src={section3_1st} alt="" />
@@ -31,8 +32,8 @@ const Section2 = () => {
                         </div>
                         <p className='ff-poppins fw-500 fs-18 grey-color pe-4 pt-3'>$5,42k</p>
                     </div>
-                </div>
-                <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up"
+                </Col>
+                <Col lg={4} sm={6} data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="700">
                     <img className='w-100 h-75' src={section3_2nd} alt="" />
@@ -50,8 +51,8 @@ const Section2 = () => {
                         </div>
                         <p className='ff-poppins fw-500 fs-18 grey-color pe-4 pt-3'>$4.2k</p>
                     </div>
-                </div>
-                <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-left"
+                </Col>
+                <Col lg={4} sm={6} data-aos="fade-left"
                     data-aos-easing="linear"
                     data-aos-duration="700">
                     <img className='w-100 h-75' src={section3_3rd} alt="" />
@@ -69,8 +70,8 @@ const Section2 = () => {
                         </div>
                         <p className='ff-poppins fw-500 fs-18 grey-color pe-4 pt-3'>$15k</p>
                     </div>
-                </div>
-            </div>
+                </Col>
+            </Row>
         </div>
     )
 }

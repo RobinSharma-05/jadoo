@@ -8,7 +8,7 @@ const Section6 = () => {
     return (
         <div className='position-relative' data-aos="zoom-in" data-aos-delay="200"
             data-aos-duration="1500">
-            <img className='second_last_image_first w-29 ' src={second_last_inner_image_first} alt="" />
+            <img className='second_last_image_first w-29' src={second_last_inner_image_first} alt="" />
             <img className='second_last_image_two w-25' src={second_last_inner_image_two} alt="" />
             <img className='second_last_image_airoplane d-none d-xl-block' src={last_second_section_airoplane} alt="" />
             <div className='bg_image'>

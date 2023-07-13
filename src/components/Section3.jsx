@@ -5,12 +5,13 @@ import section4_3rd_small from '../assets/svg/section4_3rd_small.svg'
 import section4_girl_image from '../assets/png/section4_girl_image.png'
 import a_card from '../assets/svg/a_card.svg'
 import gradient_blue from '../assets/png/gradient_blue.png'
+import { Col, Row } from 'react-bootstrap'
 
 const Section3 = () => {
     return (
         <div>
-            <div className="row">
-                <div className="col-12 col-lg-7" data-aos="fade-right"
+            <Row>
+                <Col lg={7} data-aos="fade-right"
                     data-aos-delay="200"
                     data-aos-duration="1000"
                     data-aos-offset="300"
@@ -44,9 +45,9 @@ const Section3 = () => {
                                 adipiscing elit. Urna, tortor tempus. </h5>
                         </div>
                     </div>
-                </div>
+                </Col>
 
-                <div className="col-12 col-lg-5 position-relative pt-5 mt-4 d-flex justify-content-center" data-aos="fade-left"
+                <Col lg={5} className="position-relative pt-5 mt-4 d-flex justify-content-center" data-aos="fade-left"
                     data-aos-delay="200"
                     data-aos-duration="1000"
                     data-aos-offset="300"
@@ -119,8 +120,8 @@ const Section3 = () => {
                         <img className='w-100 d-none d-md-block a_card' src={a_card} alt="" />
                     </div>
 
-                </div>
-            </div>
+                </Col>
+            </Row>
         </div>
     )
 }
